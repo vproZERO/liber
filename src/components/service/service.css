@@ -1,0 +1,19 @@
+
+
+.service_content:hover .service_imgs{
+    transition: all .2s;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i,-10)));
+
+}
+.service_imgs{
+    --c: #fff;
+    /* text color */
+    /* background color */
+     color: #0000;
+     border: none;
+     transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+     text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+       calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+     outline-offset: .1em;
+     transition: 0.3s;
+}
